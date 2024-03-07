@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textfield"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:textSize="20sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="335dp"
+        android:columnCount="3">
+
+        <EditText
+            android:id="@+id/phoneNumberEditText"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="+"
+            android:textColor="@color/white"
+            android:enabled="false"
+            android:textSize="24sp"
+            android:layout_columnSpan="3"
+            android:layout_row="0"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10px"
+            android:layout_marginEnd="10px"
+            android:layout_marginBottom="10px"
+            android:onClick="onDeleteClick"
+            android:textSize="15sp"
+            android:text="@string/del"
+            android:layout_column="2"
+            android:layout_row="5" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="10px"
+            android:layout_marginStart="10px"
+            android:layout_marginTop="10px"
+            android:layout_marginEnd="10px"
+            android:layout_marginBottom="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="1" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="10px"
+            android:layout_marginStart="10px"
+            android:layout_marginTop="10px"
+            android:layout_marginEnd="10px"
+            android:layout_marginBottom="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="2" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:text="3"
+            android:textSize="22sp"
+            android:layout_column="2"
+            android:layout_row="1"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="4" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="5" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="6" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="7" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="8" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="9" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="28sp"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/zerobtn"
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="0/+" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onNumberClick"
+            android:textSize="22sp"
+            android:text="#" />
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="65dp"
+            android:layout_margin="10px"
+            android:onClick="onCallClick"
+            android:textSize="20sp"
+            android:text="@string/call"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="5"/>
+
+
+    </GridLayout>
+
+
+</RelativeLayout>

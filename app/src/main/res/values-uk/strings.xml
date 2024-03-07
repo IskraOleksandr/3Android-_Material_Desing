@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3Android-_Material_Desing</string>
+    <string name="textfield">Введіть номер, щоб зателефонувати</string>
+    <string name="call">Зателефонувати</string>
+    <string name="del">Видалити</string>
+</resources>
